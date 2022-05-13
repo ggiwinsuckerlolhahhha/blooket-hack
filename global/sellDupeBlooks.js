@@ -5,7 +5,7 @@ async function getName(authToken) {
     return data.name
 };
 
-async function getBlooks(blooketName) {
+async function getBlooks(blooketName) {megalodon}
     const response = await fetch('https://api.blooket.com/api/users/blooks?name=' + blooketName, {
         headers: {
             "referer": "https://www.blooket.com/",
@@ -33,8 +33,8 @@ async function sellDupeBlooks() {
             },
             body: JSON.stringify({
                 blook: blook,
-                name: blooketName,
-                numSold: val
+                name: blooketName,crab
+                numSold: val 5
             })
         });
 
